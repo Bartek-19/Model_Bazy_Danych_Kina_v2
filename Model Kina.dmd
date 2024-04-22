@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Model Kina" id="080E1F3F-17CC-44B9-18EB-84CB2ADC5A27" version="3.5">
+<createdBy>barte</createdBy>
+<createdTime>2023-10-22 12:58:23 UTC</createdTime>
+<ownerDesignName>Założenie konta</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>080E1F3F-17CC-44B9-18EB-84CB2ADC5A27</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="392445F2-5A2C-9970-5D44-5203256366EB">
+<designStoragePath>C:\Users\barte\OneDrive\Pulpit\III semestr\3.9 Wprowadzenie Do Systemów Baz Danych\Laboratorium\Model</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>
