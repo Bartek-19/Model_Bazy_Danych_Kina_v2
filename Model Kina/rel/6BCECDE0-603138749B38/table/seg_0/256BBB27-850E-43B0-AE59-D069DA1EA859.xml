@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="256BBB27-850E-43B0-AE59-D069DA1EA859" name="Offer">
+<createdBy>barte</createdBy>
+<createdTime>2023-12-30 17:04:35 UTC</createdTime>
+<generatorID>FBAEC6E5-203C-789F-2C71-5448A13CAD15</generatorID>
+<ownerDesignName>Model Kina</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Offer_id" id="41B8FE2A-8A55-30FA-E8B8-BBB236D6F932">
+<createdBy>barte</createdBy>
+<createdTime>2023-12-30 17:04:35 UTC</createdTime>
+<generatorID>12554FA1-41FB-B1E9-061A-6564C4D931AA</generatorID>
+<ownerDesignName>Model Kina</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Offer_name" id="58CADEDF-6C53-38C6-5329-C2E84218B417">
+<createdBy>barte</createdBy>
+<createdTime>2023-12-30 17:04:35 UTC</createdTime>
+<generatorID>5C6405C1-A90E-0E79-9AA8-0AAE7BE985B2</generatorID>
+<ownerDesignName>Model Kina</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Offer_description" id="F15EC17B-EB8F-9B51-C9D3-3804A6EA6717">
+<createdBy>barte</createdBy>
+<createdTime>2023-12-30 17:04:35 UTC</createdTime>
+<generatorID>3F8E48D5-AF49-4C78-6B0F-5DD72C62337F</generatorID>
+<ownerDesignName>Model Kina</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Amount_to_pay" id="4A962A60-689B-50AD-C759-D279BABE7EE4">
+<createdBy>barte</createdBy>
+<createdTime>2023-12-30 17:04:35 UTC</createdTime>
+<generatorID>3E4F6CE7-0EB5-97B8-4218-AFCE3E3810EA</generatorID>
+<ownerDesignName>Model Kina</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Beginning_date_of_the_offer" id="5117BB14-9591-7EB3-8161-53B767634859">
+<createdBy>barte</createdBy>
+<createdTime>2023-12-30 17:04:35 UTC</createdTime>
+<generatorID>1658643B-F040-367F-B507-F67BE111C81F</generatorID>
+<ownerDesignName>Model Kina</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="End_date_of_the_offer" id="BFA2806F-3701-B048-F884-21819F578334">
+<createdBy>barte</createdBy>
+<createdTime>2023-12-30 17:04:35 UTC</createdTime>
+<generatorID>03087341-0AD6-C8C1-323F-C8E745ACFECD</generatorID>
+<ownerDesignName>Model Kina</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B5F48545-0D13-B07A-83EF-6594C5E73B5B" name="Offer_PK">
+<createdBy>barte</createdBy>
+<createdTime>2023-12-30 17:04:35 UTC</createdTime>
+<generatorID>8E60F8D8-6381-A5F9-4BEF-DD08CD63702E</generatorID>
+<ownerDesignName>Model Kina</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="41B8FE2A-8A55-30FA-E8B8-BBB236D6F932"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

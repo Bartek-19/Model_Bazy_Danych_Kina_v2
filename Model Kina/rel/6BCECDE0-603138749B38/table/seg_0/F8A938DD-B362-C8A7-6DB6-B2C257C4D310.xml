@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F8A938DD-B362-C8A7-6DB6-B2C257C4D310" name="Relation_42">
+<createdBy>barte</createdBy>
+<createdTime>2023-12-30 17:04:35 UTC</createdTime>
+<ownerDesignName>Model Kina</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Movie_Movie_id" id="DBC3B3F0-B008-6959-C767-9E4A08981D6A">
+<createdBy>barte</createdBy>
+<createdTime>2023-12-30 17:04:35 UTC</createdTime>
+<ownerDesignName>Model Kina</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6267F608-EA08-250B-95F0-6EB7EF19BD90" referredColumn="039BD5D9-2DFA-F1E1-C406-081F02F0D847"/>
+</associations>
+</Column>
+<Column name="Movie_genre_Genre_id" id="5B331DE4-C074-BE97-4E39-7BEF2CBB5CDA">
+<createdBy>barte</createdBy>
+<createdTime>2023-12-30 17:04:35 UTC</createdTime>
+<ownerDesignName>Model Kina</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2808286D-C9A0-86FA-CC9F-4D2587649AB7" referredColumn="6A12C129-17B4-A6F4-F7A6-2E029DF00FFF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F4A386C8-2A2C-09B9-A2F8-7F8E17A4DABA" name="Relation_42_PK">
+<createdBy>barte</createdBy>
+<createdTime>2023-12-30 17:04:35 UTC</createdTime>
+<ownerDesignName>Model Kina</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DBC3B3F0-B008-6959-C767-9E4A08981D6A"/>
+<colUsage columnID="5B331DE4-C074-BE97-4E39-7BEF2CBB5CDA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8295A067-9CF6-31F6-26FD-4FD97832A427" name="Relation_42_Movie_FK">
+<createdBy>barte</createdBy>
+<createdTime>2023-12-30 17:04:35 UTC</createdTime>
+<generatorID>E5172DCE-0993-C096-9067-94AD670B777B</generatorID>
+<ownerDesignName>Model Kina</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DBC3B3F0-B008-6959-C767-9E4A08981D6A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="76EC2802-202B-1259-5C68-AB7FADE0E87A" name="Relation_42_Movie_genre_FK">
+<createdBy>barte</createdBy>
+<createdTime>2023-12-30 17:04:35 UTC</createdTime>
+<generatorID>E5172DCE-0993-C096-9067-94AD670B777B</generatorID>
+<ownerDesignName>Model Kina</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B331DE4-C074-BE97-4E39-7BEF2CBB5CDA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

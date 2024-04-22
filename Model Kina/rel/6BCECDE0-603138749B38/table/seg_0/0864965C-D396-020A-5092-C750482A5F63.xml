@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0864965C-D396-020A-5092-C750482A5F63" name="Sceance_audio_type">
+<createdBy>barte</createdBy>
+<createdTime>2023-12-30 17:04:35 UTC</createdTime>
+<generatorID>6D5168B9-65E2-DD92-0A9C-FB24998EC421</generatorID>
+<ownerDesignName>Model Kina</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Audio_type_id" id="FF1FD54C-C398-5867-697A-5ADEB670347C">
+<createdBy>barte</createdBy>
+<createdTime>2023-12-30 17:04:35 UTC</createdTime>
+<generatorID>59FADC56-31A5-9A51-1437-2BDEB17753F9</generatorID>
+<ownerDesignName>Model Kina</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Audio_type" id="5416B4F2-EFDA-4C4F-4E9B-79E98CF9C6B2">
+<createdBy>barte</createdBy>
+<createdTime>2023-12-30 17:04:35 UTC</createdTime>
+<generatorID>2306D884-9F52-6C17-75BE-965C57A5E870</generatorID>
+<ownerDesignName>Model Kina</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Language" id="BAF074EF-EC51-8D19-A05E-51ACE817A0D6">
+<createdBy>barte</createdBy>
+<createdTime>2023-12-30 17:04:35 UTC</createdTime>
+<generatorID>9FACF58C-8BAA-8B8F-3206-20477A219062</generatorID>
+<ownerDesignName>Model Kina</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="10138100-A690-CF81-E148-6FF35B972D77" name="Sceance_audio_type_PK">
+<createdBy>barte</createdBy>
+<createdTime>2023-12-30 17:04:35 UTC</createdTime>
+<generatorID>59021D5C-D078-5278-2D19-7A02BF240DA9</generatorID>
+<ownerDesignName>Model Kina</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF1FD54C-C398-5867-697A-5ADEB670347C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

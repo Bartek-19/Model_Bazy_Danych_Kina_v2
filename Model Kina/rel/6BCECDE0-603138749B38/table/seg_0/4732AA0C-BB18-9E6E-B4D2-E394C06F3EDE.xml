@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4732AA0C-BB18-9E6E-B4D2-E394C06F3EDE" name="Sales_channel">
+<createdBy>barte</createdBy>
+<createdTime>2023-12-30 17:04:35 UTC</createdTime>
+<generatorID>DB205C66-8A1D-A0DC-A7C0-F55C7F4E51B3</generatorID>
+<ownerDesignName>Model Kina</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Channel_id" id="E264F7DD-03D1-B2C1-B2CF-B11E0ACDEB91">
+<createdBy>barte</createdBy>
+<createdTime>2023-12-30 17:04:35 UTC</createdTime>
+<generatorID>65C43FAD-C96F-315F-5260-482F59492CC8</generatorID>
+<ownerDesignName>Model Kina</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Channel_name" id="5958B29E-7AB1-CC70-9D5B-0CF7FA90E7D8">
+<createdBy>barte</createdBy>
+<createdTime>2023-12-30 17:04:35 UTC</createdTime>
+<generatorID>64C106D2-A94F-C9A3-1250-E49C889F6309</generatorID>
+<ownerDesignName>Model Kina</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cinema_Cinema_id" id="B28267A9-885D-959D-35D6-CBD78D5AB510">
+<createdBy>barte</createdBy>
+<createdTime>2023-12-30 17:04:35 UTC</createdTime>
+<generatorID>2C555452-7228-9E58-6347-02D9522132C1</generatorID>
+<ownerDesignName>Model Kina</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EA1FFB23-B97E-5527-8D9A-EBDBE4F21A1D" referredColumn="3CFE5464-468A-DB14-C1D7-74F0AF2646D7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7BF10973-C60E-502A-1907-2EF2928E85B8" name="Sales_channel_PK">
+<createdBy>barte</createdBy>
+<createdTime>2023-12-30 17:04:35 UTC</createdTime>
+<generatorID>7C5324DE-0E58-9500-E388-280DC0718204</generatorID>
+<ownerDesignName>Model Kina</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E264F7DD-03D1-B2C1-B2CF-B11E0ACDEB91"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D5E4E425-9934-FE27-ABFA-867824FA53CF" name="Sales_channel_Cinema_FK">
+<createdBy>barte</createdBy>
+<createdTime>2023-12-30 17:04:35 UTC</createdTime>
+<generatorID>3B72BC51-91C3-7450-294B-0B6C63E2F07E</generatorID>
+<ownerDesignName>Model Kina</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B28267A9-885D-959D-35D6-CBD78D5AB510"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

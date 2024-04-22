@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B9219597-DDF6-250A-7F0E-C76DC035BC7A" containerWithKeyObject="538C5AFD-4A7D-2215-1480-93D29FB207AF" localFKIndex="7D542652-AA1A-AD3E-B46C-60EB4E4DCB43" name="Relation_39_Offer_FK">
+<createdBy>barte</createdBy>
+<createdTime>2023-12-30 17:04:35 UTC</createdTime>
+<generatorID>881745FA-6F57-4CBD-ECBF-FAB154B95418</generatorID>
+<ownerDesignName>Model Kina</ownerDesignName>
+<referredTableLongName>Offer</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>256BBB27-850E-43B0-AE59-D069DA1EA859</referredTableID>
+<keyObject>B5F48545-0D13-B07A-83EF-6594C5E73B5B</keyObject>
+<referredKeyID>B5F48545-0D13-B07A-83EF-6594C5E73B5B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Offer_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

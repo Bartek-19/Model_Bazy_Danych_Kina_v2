@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4EA7E9D0-B193-861C-CB73-5DB096C0096E" containerWithKeyObject="AC704B85-0C25-86A5-8931-DFC066B570CB" localFKIndex="CF943669-0293-283B-CC0F-917C3F7FF40F" name="Seance_Sceance_audio_type_FK">
+<createdBy>barte</createdBy>
+<createdTime>2023-12-30 17:04:35 UTC</createdTime>
+<generatorID>E406E244-1270-83AC-DC5C-087DB155DE0F</generatorID>
+<ownerDesignName>Model Kina</ownerDesignName>
+<referredTableLongName>Sceance_audio_type</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0864965C-D396-020A-5092-C750482A5F63</referredTableID>
+<keyObject>10138100-A690-CF81-E148-6FF35B972D77</keyObject>
+<referredKeyID>10138100-A690-CF81-E148-6FF35B972D77</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Audio_type_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

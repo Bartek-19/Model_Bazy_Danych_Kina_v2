@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D2070CD9-AE4D-AAB6-8822-F0C791D627F2" containerWithKeyObject="81AE52CB-A6DA-267D-5FD8-F7BBF23D9B0C" localFKIndex="B4E35BF4-AAAA-0F7B-1037-6A4B3A0A9884" name="Relation_45_Ticket_FK">
+<createdBy>barte</createdBy>
+<createdTime>2023-12-30 17:04:35 UTC</createdTime>
+<generatorID>376E62C4-C601-8F7A-A0E5-C73AA562F815</generatorID>
+<ownerDesignName>Model Kina</ownerDesignName>
+<referredTableLongName>Ticket</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BE642700-EEAA-4B7A-448C-99888546E81B</referredTableID>
+<keyObject>5F322128-8374-9A4A-2B1C-F6BCBFF74145</keyObject>
+<referredKeyID>5F322128-8374-9A4A-2B1C-F6BCBFF74145</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Ticket_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

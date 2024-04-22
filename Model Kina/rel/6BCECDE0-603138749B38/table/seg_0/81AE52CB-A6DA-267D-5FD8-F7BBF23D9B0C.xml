@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="81AE52CB-A6DA-267D-5FD8-F7BBF23D9B0C" name="Relation_45">
+<createdBy>barte</createdBy>
+<createdTime>2023-12-30 17:04:35 UTC</createdTime>
+<ownerDesignName>Model Kina</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Ticket_Ticket_id" id="3A2AC8FB-FF5A-8550-04DE-349AB1A89002">
+<createdBy>barte</createdBy>
+<createdTime>2023-12-30 17:04:35 UTC</createdTime>
+<ownerDesignName>Model Kina</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D2070CD9-AE4D-AAB6-8822-F0C791D627F2" referredColumn="A4BDD11F-5270-2A02-0FFF-415C691CBDBF"/>
+</associations>
+</Column>
+<Column name="Offer_Offer_id" id="CB5EEA7E-FE1D-5802-5BE8-E29BD6CA33DB">
+<createdBy>barte</createdBy>
+<createdTime>2023-12-30 17:04:35 UTC</createdTime>
+<ownerDesignName>Model Kina</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="47342ADA-71D8-8323-D612-5614AFA7E1EE" referredColumn="41B8FE2A-8A55-30FA-E8B8-BBB236D6F932"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4AF52CDE-87E8-5153-13C3-EC9BB2CCFAA5" name="Relation_45_PK">
+<createdBy>barte</createdBy>
+<createdTime>2023-12-30 17:04:35 UTC</createdTime>
+<ownerDesignName>Model Kina</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A2AC8FB-FF5A-8550-04DE-349AB1A89002"/>
+<colUsage columnID="CB5EEA7E-FE1D-5802-5BE8-E29BD6CA33DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B4E35BF4-AAAA-0F7B-1037-6A4B3A0A9884" name="Relation_45_Ticket_FK">
+<createdBy>barte</createdBy>
+<createdTime>2023-12-30 17:04:35 UTC</createdTime>
+<generatorID>376E62C4-C601-8F7A-A0E5-C73AA562F815</generatorID>
+<ownerDesignName>Model Kina</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A2AC8FB-FF5A-8550-04DE-349AB1A89002"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E56262E0-B9FD-21EB-5BF6-0E652676830C" name="Relation_45_Offer_FK">
+<createdBy>barte</createdBy>
+<createdTime>2023-12-30 17:04:35 UTC</createdTime>
+<generatorID>376E62C4-C601-8F7A-A0E5-C73AA562F815</generatorID>
+<ownerDesignName>Model Kina</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB5EEA7E-FE1D-5802-5BE8-E29BD6CA33DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

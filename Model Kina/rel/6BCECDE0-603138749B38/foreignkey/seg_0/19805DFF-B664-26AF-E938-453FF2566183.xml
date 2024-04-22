@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="19805DFF-B664-26AF-E938-453FF2566183" containerWithKeyObject="E71BE599-E08F-FC47-D060-BC0D2D3F7C36" localFKIndex="04151190-DE59-CFEE-D1B5-42D091FA6C23" name="Products_in_cinema_Products_FK">
+<createdBy>barte</createdBy>
+<createdTime>2023-12-30 17:04:35 UTC</createdTime>
+<generatorID>31CD3289-A729-9B46-8D79-6994767854E2</generatorID>
+<ownerDesignName>Model Kina</ownerDesignName>
+<referredTableLongName>Products</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E2E4B038-5212-53D6-07EB-85C697A5AA2E</referredTableID>
+<keyObject>81C97936-041A-C2F5-ABAF-E1C029B2D109</keyObject>
+<referredKeyID>81C97936-041A-C2F5-ABAF-E1C029B2D109</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Product_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A9CE3244-6FD6-08B0-C5F4-5BA136EAE7B6" containerWithKeyObject="187E5111-8DFB-A6BC-323C-6908E9268D63" localFKIndex="22D58034-4D1C-C5A7-FE49-91BFBA3CA78F" name="Monthly_raport_Cinema_FK">
+<createdBy>barte</createdBy>
+<createdTime>2023-12-30 17:04:35 UTC</createdTime>
+<generatorID>5816174A-484E-EAD0-3EB8-1D20165E9712</generatorID>
+<ownerDesignName>Model Kina</ownerDesignName>
+<referredTableLongName>Cinema</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C2BA29AB-27A6-95B0-505E-3F3E0388000D</referredTableID>
+<keyObject>C511CD8E-7AA8-6612-65DC-8384CF977832</keyObject>
+<referredKeyID>C511CD8E-7AA8-6612-65DC-8384CF977832</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Cinema_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

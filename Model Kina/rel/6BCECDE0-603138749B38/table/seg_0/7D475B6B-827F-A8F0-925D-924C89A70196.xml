@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7D475B6B-827F-A8F0-925D-924C89A70196" name="Feedback">
+<createdBy>barte</createdBy>
+<createdTime>2023-12-30 17:04:35 UTC</createdTime>
+<generatorID>37B38C28-5E04-D12C-FB84-25A5CDB8C258</generatorID>
+<ownerDesignName>Model Kina</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Feedback_id" id="02BF9CBC-D5D2-1CEB-E88E-F5B13412EC10">
+<createdBy>barte</createdBy>
+<createdTime>2023-12-30 17:04:35 UTC</createdTime>
+<generatorID>B68A2ACC-7510-3680-AB34-506CD6D0C3CB</generatorID>
+<ownerDesignName>Model Kina</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Date_of_publication" id="43A8AF09-DD44-8F30-323A-56973F1D8706">
+<createdBy>barte</createdBy>
+<createdTime>2023-12-30 17:04:35 UTC</createdTime>
+<generatorID>4BF5F00C-CB3C-ECBD-F104-D8E91888EF75</generatorID>
+<ownerDesignName>Model Kina</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rating" id="6D3A8001-5108-4156-4D50-5B0E9DE50B3C">
+<createdBy>barte</createdBy>
+<createdTime>2023-12-30 17:04:35 UTC</createdTime>
+<generatorID>87DC7A67-7A3D-B60E-384E-B045A8C2A2B0</generatorID>
+<ownerDesignName>Model Kina</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Comment" id="A7B6A6B6-7398-4CA9-AF00-3D4FAD966C58">
+<createdBy>barte</createdBy>
+<createdTime>2023-12-30 17:04:35 UTC</createdTime>
+<generatorID>B61DE814-0D57-CEBD-CEB3-9B500EB7A82A</generatorID>
+<ownerDesignName>Model Kina</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5000</dataTypeSize>
+<ownDataTypeParameters>5000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cinema_Cinema_id" id="0B2917BD-BFF7-9333-1383-B6C1C7143F30">
+<createdBy>barte</createdBy>
+<createdTime>2023-12-30 17:04:35 UTC</createdTime>
+<generatorID>C9F809C6-5640-6CC0-5207-26FD251B63E8</generatorID>
+<ownerDesignName>Model Kina</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D91A6E4B-3E99-6E3F-07F0-712ECD922B80" referredColumn="3CFE5464-468A-DB14-C1D7-74F0AF2646D7"/>
+</associations>
+</Column>
+<Column name="Client_Client_id" id="289519B2-4127-B3C3-50D4-A71951FF1810">
+<createdBy>barte</createdBy>
+<createdTime>2023-12-30 17:04:35 UTC</createdTime>
+<generatorID>C6E233E9-5CE5-193F-70E0-77DB5110882C</generatorID>
+<ownerDesignName>Model Kina</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8856BA67-0CD2-3F34-1FD8-7033A29CF2C5" referredColumn="093A6D31-ADA4-9C29-39E6-226B8E51C7E9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AE1C728D-71A7-0DB3-DF15-2CADC979C26E" name="Feedback_PK">
+<createdBy>barte</createdBy>
+<createdTime>2023-12-30 17:04:35 UTC</createdTime>
+<generatorID>7D2C3EFB-CC85-564D-7BE7-75494580E35B</generatorID>
+<ownerDesignName>Model Kina</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02BF9CBC-D5D2-1CEB-E88E-F5B13412EC10"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8C5B02AF-9864-D7A2-7527-03CAA601BE26" name="Feedback_Cinema_FK">
+<createdBy>barte</createdBy>
+<createdTime>2023-12-30 17:04:35 UTC</createdTime>
+<generatorID>090BC7C2-301B-2B70-FA1B-1350032C4EE1</generatorID>
+<ownerDesignName>Model Kina</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B2917BD-BFF7-9333-1383-B6C1C7143F30"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4EBC7A83-5EC3-1BAA-38F5-C1C21C68CE0D" name="Feedback_Client_FK">
+<createdBy>barte</createdBy>
+<createdTime>2023-12-30 17:04:35 UTC</createdTime>
+<generatorID>74672E32-FD16-5761-DEF4-A15FD567EDCC</generatorID>
+<ownerDesignName>Model Kina</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="289519B2-4127-B3C3-50D4-A71951FF1810"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

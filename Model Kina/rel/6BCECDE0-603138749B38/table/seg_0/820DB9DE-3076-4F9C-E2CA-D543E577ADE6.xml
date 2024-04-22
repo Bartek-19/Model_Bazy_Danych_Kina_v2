@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="820DB9DE-3076-4F9C-E2CA-D543E577ADE6" name="Relation_40">
+<createdBy>barte</createdBy>
+<createdTime>2023-12-30 17:04:35 UTC</createdTime>
+<ownerDesignName>Model Kina</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Cinema_Cinema_id" id="56D5EE96-9376-4A1A-CF77-2F382957C0F3">
+<createdBy>barte</createdBy>
+<createdTime>2023-12-30 17:04:35 UTC</createdTime>
+<ownerDesignName>Model Kina</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="72CF9B67-2B12-7778-782D-7A178D43F1BC" referredColumn="3CFE5464-468A-DB14-C1D7-74F0AF2646D7"/>
+</associations>
+</Column>
+<Column name="Default_cinema_Cinema_id" id="3F9ADB70-6090-900C-B93B-13522A8A4303">
+<createdBy>barte</createdBy>
+<createdTime>2023-12-30 17:04:35 UTC</createdTime>
+<ownerDesignName>Model Kina</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4CCC4295-31E1-60E8-959D-BB63ADCB08B9" referredColumn="DA7EB0D4-4BD6-620F-8D64-730FDF4D89A0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D2193F6F-79FD-09D5-0924-00D9DE300DFE" name="Relation_40_PK">
+<createdBy>barte</createdBy>
+<createdTime>2023-12-30 17:04:35 UTC</createdTime>
+<ownerDesignName>Model Kina</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56D5EE96-9376-4A1A-CF77-2F382957C0F3"/>
+<colUsage columnID="3F9ADB70-6090-900C-B93B-13522A8A4303"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BB635573-D1FE-5028-CC9E-70F633C327F4" name="Relation_40_Cinema_FK">
+<createdBy>barte</createdBy>
+<createdTime>2023-12-30 17:04:35 UTC</createdTime>
+<generatorID>393E47B5-D1A5-E2FF-ADE6-51F4BBBE5200</generatorID>
+<ownerDesignName>Model Kina</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56D5EE96-9376-4A1A-CF77-2F382957C0F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="48F0A827-B43E-3AC2-F01B-B17A076538B0" name="Relation_40_Default_cinema_FK">
+<createdBy>barte</createdBy>
+<createdTime>2023-12-30 17:04:35 UTC</createdTime>
+<generatorID>393E47B5-D1A5-E2FF-ADE6-51F4BBBE5200</generatorID>
+<ownerDesignName>Model Kina</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F9ADB70-6090-900C-B93B-13522A8A4303"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
