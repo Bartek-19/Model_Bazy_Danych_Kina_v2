@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="91B67C2D-5BF9-3126-366B-F2C03F7E8C4B" name="City">
+<createdBy>barte</createdBy>
+<createdTime>2023-11-09 15:11:45 UTC</createdTime>
+<ownerDesignName>Model Kina</ownerDesignName>
+<engineerTo>
+<item key="779F2A94-2F32-A8D5-6CD5-6565BAC940B5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="City_id" id="2B606D8D-AF2D-FFD8-522F-954BEC0358BA">
+<createdBy>barte</createdBy>
+<createdTime>2023-12-10 20:04:33 UTC</createdTime>
+<ownerDesignName>Model Kina</ownerDesignName>
+<engineerTo>
+<item key="779F2A94-2F32-A8D5-6CD5-6565BAC940B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="City_name" id="4904CF8A-B02E-162D-27B8-E2A88C0A039D">
+<createdBy>barte</createdBy>
+<createdTime>2023-11-11 19:51:45 UTC</createdTime>
+<ownerDesignName>Model Kina</ownerDesignName>
+<engineerTo>
+<item key="779F2A94-2F32-A8D5-6CD5-6565BAC940B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Zip_code" id="F7D1C950-1EA2-4894-EEB9-8E8C3AD3DF70">
+<createdBy>barte</createdBy>
+<createdTime>2023-11-12 18:28:13 UTC</createdTime>
+<ownerDesignName>Model Kina</ownerDesignName>
+<engineerTo>
+<item key="779F2A94-2F32-A8D5-6CD5-6565BAC940B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Region_id" id="80A62023-1263-E152-7912-28870D8F3F3C">
+<createdBy>barte</createdBy>
+<createdTime>2023-12-10 20:03:48 UTC</createdTime>
+<generatorID>2C4D70E3-4370-DD41-73A1-24B89BD3CA6D</generatorID>
+<ownerDesignName>Model Kina</ownerDesignName>
+<engineerTo>
+<item key="779F2A94-2F32-A8D5-6CD5-6565BAC940B5" value="true"/>
+</engineerTo>
+<referedAttribute>49DF61F7-6F9C-1DD5-62D5-95DDCFE405A8</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7232727E-F120-7F08-1317-1B4CC138A9F0" name="City PK">
+<createdBy>barte</createdBy>
+<createdTime>2023-11-11 19:52:06 UTC</createdTime>
+<ownerDesignName>Model Kina</ownerDesignName>
+<engineerTo>
+<item key="779F2A94-2F32-A8D5-6CD5-6565BAC940B5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2B606D8D-AF2D-FFD8-522F-954BEC0358BA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

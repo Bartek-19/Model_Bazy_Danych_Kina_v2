@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7B77DAEB-F3FF-4223-07E8-250D18002823" name="Movie_genre">
+<createdBy>barte</createdBy>
+<createdTime>2023-11-12 16:55:32 UTC</createdTime>
+<ownerDesignName>Model Kina</ownerDesignName>
+<engineerTo>
+<item key="779F2A94-2F32-A8D5-6CD5-6565BAC940B5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Genre_id" id="858B21E0-3B28-BAED-7283-0B3AEEB5B97F">
+<createdBy>barte</createdBy>
+<createdTime>2023-11-12 16:55:54 UTC</createdTime>
+<ownerDesignName>Model Kina</ownerDesignName>
+<engineerTo>
+<item key="779F2A94-2F32-A8D5-6CD5-6565BAC940B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Genre_name" id="552C424C-1E85-F928-19BD-B7D76E69D631">
+<createdBy>barte</createdBy>
+<createdTime>2023-11-12 16:56:11 UTC</createdTime>
+<ownerDesignName>Model Kina</ownerDesignName>
+<engineerTo>
+<item key="779F2A94-2F32-A8D5-6CD5-6565BAC940B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DF32CECF-EC09-6DCC-B211-B34675ECE9D1" name="Movie_genre PK">
+<createdBy>barte</createdBy>
+<createdTime>2023-11-12 16:56:09 UTC</createdTime>
+<ownerDesignName>Model Kina</ownerDesignName>
+<engineerTo>
+<item key="779F2A94-2F32-A8D5-6CD5-6565BAC940B5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>858B21E0-3B28-BAED-7283-0B3AEEB5B97F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

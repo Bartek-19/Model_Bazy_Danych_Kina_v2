@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6B6A1615-00E2-F847-BF20-B6C4F6E7BF4D" name="Employee">
+<createdBy>barte</createdBy>
+<createdTime>2023-11-09 15:16:06 UTC</createdTime>
+<ownerDesignName>Model Kina</ownerDesignName>
+<engineerTo>
+<item key="779F2A94-2F32-A8D5-6CD5-6565BAC940B5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Employee_id" id="6D1D97DD-4F3A-2C98-77A5-225FB6E61BE9">
+<createdBy>barte</createdBy>
+<createdTime>2023-11-12 14:57:13 UTC</createdTime>
+<ownerDesignName>Model Kina</ownerDesignName>
+<engineerTo>
+<item key="779F2A94-2F32-A8D5-6CD5-6565BAC940B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="B7D813F5-CCA5-DD82-AD18-0A5A4841BA18">
+<createdBy>barte</createdBy>
+<createdTime>2023-11-12 14:57:35 UTC</createdTime>
+<ownerDesignName>Model Kina</ownerDesignName>
+<engineerTo>
+<item key="779F2A94-2F32-A8D5-6CD5-6565BAC940B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Surname" id="43BACD63-0F03-000B-6E1B-B1D5E2BDB399">
+<createdBy>barte</createdBy>
+<createdTime>2023-11-12 15:51:44 UTC</createdTime>
+<ownerDesignName>Model Kina</ownerDesignName>
+<engineerTo>
+<item key="779F2A94-2F32-A8D5-6CD5-6565BAC940B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PESEL" id="B0CE5207-C754-D9BF-0421-260B8270BA62">
+<createdBy>barte</createdBy>
+<createdTime>2023-11-12 14:58:11 UTC</createdTime>
+<ownerDesignName>Model Kina</ownerDesignName>
+<engineerTo>
+<item key="779F2A94-2F32-A8D5-6CD5-6565BAC940B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Position" id="BA86F233-3335-6E40-1CC7-B9185F45C3E6">
+<createdBy>barte</createdBy>
+<createdTime>2023-11-12 14:59:28 UTC</createdTime>
+<ownerDesignName>Model Kina</ownerDesignName>
+<engineerTo>
+<item key="779F2A94-2F32-A8D5-6CD5-6565BAC940B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Worktime" id="C3FCE10E-8981-B7B7-B941-04A2955D94D5">
+<createdBy>barte</createdBy>
+<createdTime>2023-11-12 15:58:18 UTC</createdTime>
+<ownerDesignName>Model Kina</ownerDesignName>
+<engineerTo>
+<item key="779F2A94-2F32-A8D5-6CD5-6565BAC940B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Payment_per_hour" id="BB7B01AB-71EC-B4FA-9591-14501045EF12">
+<createdBy>barte</createdBy>
+<createdTime>2023-11-12 15:58:35 UTC</createdTime>
+<ownerDesignName>Model Kina</ownerDesignName>
+<engineerTo>
+<item key="779F2A94-2F32-A8D5-6CD5-6565BAC940B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cinema_id" id="8CA35C13-E5C7-F3D0-09D3-668B2D04741F">
+<createdBy>barte</createdBy>
+<createdTime>2023-11-12 15:45:28 UTC</createdTime>
+<generatorID>7AB92067-05F5-DD6B-2007-C0419D9F93B5</generatorID>
+<ownerDesignName>Model Kina</ownerDesignName>
+<engineerTo>
+<item key="779F2A94-2F32-A8D5-6CD5-6565BAC940B5" value="true"/>
+</engineerTo>
+<referedAttribute>0F33C45C-A584-A9EB-5B50-DB446CD23EBC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CDB87382-0BF8-6EE7-BD5C-D981E08B1DD4" name="Employee PK">
+<createdBy>barte</createdBy>
+<createdTime>2023-11-12 14:57:31 UTC</createdTime>
+<ownerDesignName>Model Kina</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="779F2A94-2F32-A8D5-6CD5-6565BAC940B5" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6D1D97DD-4F3A-2C98-77A5-225FB6E61BE9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

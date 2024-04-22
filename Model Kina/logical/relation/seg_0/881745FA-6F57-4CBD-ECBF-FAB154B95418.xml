@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_39" directorySegmentName="seg_0" id="881745FA-6F57-4CBD-ECBF-FAB154B95418">
+<createdBy>barte</createdBy>
+<createdTime>2023-12-30 15:14:35 UTC</createdTime>
+<ownerDesignName>Model Kina</ownerDesignName>
+<engineerTo>
+<item key="779F2A94-2F32-A8D5-6CD5-6565BAC940B5" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>FBAEC6E5-203C-789F-2C71-5448A13CAD15</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DCAC29BE-5CB2-8079-6F9E-302ED3345FDF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

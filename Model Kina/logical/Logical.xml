@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="DB8213EA-7735-6FE1-A9EC-2BC4D0297013" mainViewID="E388A62C-A473-665E-DE4F-E2009BDC536D">
+<createdBy>barte</createdBy>
+<createdTime>2023-10-22 12:58:23 UTC</createdTime>
+<ownerDesignName>Założenie konta</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

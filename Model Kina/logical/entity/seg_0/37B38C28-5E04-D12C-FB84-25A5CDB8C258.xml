@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="37B38C28-5E04-D12C-FB84-25A5CDB8C258" name="Feedback">
+<createdBy>barte</createdBy>
+<createdTime>2023-11-09 15:16:35 UTC</createdTime>
+<ownerDesignName>Model Kina</ownerDesignName>
+<engineerTo>
+<item key="779F2A94-2F32-A8D5-6CD5-6565BAC940B5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Feedback_id" id="B68A2ACC-7510-3680-AB34-506CD6D0C3CB">
+<createdBy>barte</createdBy>
+<createdTime>2023-11-12 17:47:49 UTC</createdTime>
+<ownerDesignName>Model Kina</ownerDesignName>
+<engineerTo>
+<item key="779F2A94-2F32-A8D5-6CD5-6565BAC940B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Date_of_publication" id="4BF5F00C-CB3C-ECBD-F104-D8E91888EF75">
+<createdBy>barte</createdBy>
+<createdTime>2023-12-29 17:15:30 UTC</createdTime>
+<ownerDesignName>Model Kina</ownerDesignName>
+<engineerTo>
+<item key="779F2A94-2F32-A8D5-6CD5-6565BAC940B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Rating" id="87DC7A67-7A3D-B60E-384E-B045A8C2A2B0">
+<createdBy>barte</createdBy>
+<createdTime>2023-11-12 17:50:00 UTC</createdTime>
+<ownerDesignName>Model Kina</ownerDesignName>
+<engineerTo>
+<item key="779F2A94-2F32-A8D5-6CD5-6565BAC940B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Comment" id="B61DE814-0D57-CEBD-CEB3-9B500EB7A82A">
+<createdBy>barte</createdBy>
+<createdTime>2023-11-12 17:48:30 UTC</createdTime>
+<ownerDesignName>Model Kina</ownerDesignName>
+<engineerTo>
+<item key="779F2A94-2F32-A8D5-6CD5-6565BAC940B5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5000</dataTypeSize>
+<ownDataTypeParameters>5000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cinema_id" id="C9F809C6-5640-6CC0-5207-26FD251B63E8">
+<createdBy>barte</createdBy>
+<createdTime>2023-11-12 15:45:28 UTC</createdTime>
+<generatorID>090BC7C2-301B-2B70-FA1B-1350032C4EE1</generatorID>
+<ownerDesignName>Model Kina</ownerDesignName>
+<engineerTo>
+<item key="779F2A94-2F32-A8D5-6CD5-6565BAC940B5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>0F33C45C-A584-A9EB-5B50-DB446CD23EBC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Client_id" id="C6E233E9-5CE5-193F-70E0-77DB5110882C">
+<createdBy>barte</createdBy>
+<createdTime>2023-11-12 17:04:21 UTC</createdTime>
+<generatorID>74672E32-FD16-5761-DEF4-A15FD567EDCC</generatorID>
+<ownerDesignName>Model Kina</ownerDesignName>
+<engineerTo>
+<item key="779F2A94-2F32-A8D5-6CD5-6565BAC940B5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>10DE0FB3-6732-0014-581F-698D930FBEA2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7D2C3EFB-CC85-564D-7BE7-75494580E35B" name="Feedback PK">
+<createdBy>barte</createdBy>
+<createdTime>2023-11-12 17:49:57 UTC</createdTime>
+<ownerDesignName>Model Kina</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="779F2A94-2F32-A8D5-6CD5-6565BAC940B5" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B68A2ACC-7510-3680-AB34-506CD6D0C3CB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

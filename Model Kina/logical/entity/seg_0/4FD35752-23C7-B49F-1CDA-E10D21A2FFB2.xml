@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4FD35752-23C7-B49F-1CDA-E10D21A2FFB2" name="Ticket">
+<createdBy>barte</createdBy>
+<createdTime>2023-11-09 15:14:03 UTC</createdTime>
+<ownerDesignName>Model Kina</ownerDesignName>
+<engineerTo>
+<item key="779F2A94-2F32-A8D5-6CD5-6565BAC940B5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Ticket_id" id="60030EF5-56C7-99FF-9A35-A51C8B45F7F4">
+<createdBy>barte</createdBy>
+<createdTime>2023-11-12 18:00:00 UTC</createdTime>
+<ownerDesignName>Model Kina</ownerDesignName>
+<engineerTo>
+<item key="779F2A94-2F32-A8D5-6CD5-6565BAC940B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Official_price" id="C269C4C3-FA08-2B3B-58D7-B18612DB12DD">
+<createdBy>barte</createdBy>
+<createdTime>2023-11-12 18:14:46 UTC</createdTime>
+<ownerDesignName>Model Kina</ownerDesignName>
+<engineerTo>
+<item key="779F2A94-2F32-A8D5-6CD5-6565BAC940B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Row_number" id="E59DA1D6-4686-7B35-BAE0-65DEDBF55448">
+<createdBy>barte</createdBy>
+<createdTime>2023-12-27 15:00:13 UTC</createdTime>
+<ownerDesignName>Model Kina</ownerDesignName>
+<engineerTo>
+<item key="779F2A94-2F32-A8D5-6CD5-6565BAC940B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Seat_number" id="97B943E3-BD64-EC9B-8C2E-AC31A18F57BB">
+<createdBy>barte</createdBy>
+<createdTime>2023-12-27 14:59:45 UTC</createdTime>
+<ownerDesignName>Model Kina</ownerDesignName>
+<engineerTo>
+<item key="779F2A94-2F32-A8D5-6CD5-6565BAC940B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Service_payment" id="AF22FF7F-2D06-9052-125B-A2B149994866">
+<createdBy>barte</createdBy>
+<createdTime>2023-12-30 14:25:51 UTC</createdTime>
+<ownerDesignName>Model Kina</ownerDesignName>
+<engineerTo>
+<item key="779F2A94-2F32-A8D5-6CD5-6565BAC940B5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Transactional_price" id="C274DBB9-156C-FC48-E484-00109D980EAB">
+<createdBy>barte</createdBy>
+<createdTime>2023-12-30 14:27:05 UTC</createdTime>
+<ownerDesignName>Model Kina</ownerDesignName>
+<engineerTo>
+<item key="779F2A94-2F32-A8D5-6CD5-6565BAC940B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ticket_type_id" id="F4ED732F-D317-E3CE-2339-3FA5C57CB18A">
+<createdBy>barte</createdBy>
+<createdTime>2023-11-12 18:06:55 UTC</createdTime>
+<generatorID>BF90911D-D4AA-9D9E-2E8C-126908E2A6D1</generatorID>
+<ownerDesignName>Model Kina</ownerDesignName>
+<engineerTo>
+<item key="779F2A94-2F32-A8D5-6CD5-6565BAC940B5" value="true"/>
+</engineerTo>
+<referedAttribute>6D44E9BC-0A45-8119-5AE3-DF5892A4801C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Seance_id" id="8591A68A-A375-B837-60D5-88B51FB7462F">
+<createdBy>barte</createdBy>
+<createdTime>2023-11-12 18:17:54 UTC</createdTime>
+<generatorID>A7E5A12E-9A00-E35D-5C6C-3BAB75EEB3FC</generatorID>
+<ownerDesignName>Model Kina</ownerDesignName>
+<engineerTo>
+<item key="779F2A94-2F32-A8D5-6CD5-6565BAC940B5" value="true"/>
+</engineerTo>
+<referedAttribute>3B0A750D-C044-7E4B-01A5-FEEDBC5F1D19</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="499BA7AA-2FD7-1D0B-4080-BDDDE7D66F48" name="Ticket PK">
+<createdBy>barte</createdBy>
+<createdTime>2023-11-12 18:00:28 UTC</createdTime>
+<ownerDesignName>Model Kina</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="779F2A94-2F32-A8D5-6CD5-6565BAC940B5" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>60030EF5-56C7-99FF-9A35-A51C8B45F7F4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
